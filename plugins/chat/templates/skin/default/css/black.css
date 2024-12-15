@@ -1,0 +1,112 @@
+/* -------------------------------------------------------
+ *
+ *   LiveStreet (1.x)
+ *   Plugin Chat (v.0.1)
+ *   Copyright В© 2013 Bishovec Nikolay
+ *
+ * --------------------------------------------------------
+ *
+ *   Plugin Page: http://netlanc.net
+ *   Contact e-mail: netlanc@yandex.ru
+ *
+ * ---------------------------------------------------------
+ */
+#chat {
+    width: 250px;
+    height: 370px;
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    z-index: 999;
+    border: 1px solid #000;
+    border-radius: 3px;
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: #000;
+    opacity: 0.5;
+}
+#chat-header {
+    height: 20px;
+    background: #000;
+    color: #fffffc;
+    cursor: move;
+    width: 243px;
+    float: left;
+    padding-left: 7px;
+    padding-top: 3px;
+    font-weight: 700;
+}
+#chat-header .link {
+    color: #fff; margin-left: 10px; font-weight: normal;
+}
+#chat-close {
+    cursor: pointer;
+    float: right;
+    width: 12px;
+    height: 12px;
+    background: #000 url(../images/icons-white.png) no-repeat -12px 0px;
+    color: #fff;
+    margin-right: 5px;
+}
+#chat-close.inv {
+    background-position: -24px 0;
+}
+#chat input {
+    border: none;
+}
+#chat input.text {
+    width: 210px;
+    height: 18px;
+    padding: 0 8px;
+    font-size: 11px; line-height: 18px;
+    float: left;
+}
+#chat input.button-chat {
+    width: 12px;
+    height: 12px;
+    background: #000 url(../images/icons-white.png) no-repeat 0 0;
+    color: #fff;
+    margin: 4px 5px 0 0;
+    padding: 0;
+    text-align: center;
+    float: right;
+}
+#chat-content {
+    overflow-y: auto;
+    height: 305px;
+    width: 240px;
+    padding: 5px;
+    margin: 0 0 1px 0;
+    display: inline-block;
+    background: #fff;
+}
+#chat-content.load{background: #fff url(../images/loader-circle.gif) no-repeat center;}
+#chat-content ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    background: #fff;
+}
+#chat-content ul li {
+    padding-left: 2px;
+    padding-right: 1px;
+    overflow-x: hidden;
+    font-size: 12px;
+}
+#chat-content ul li strong {
+    cursor: pointer;
+}
+#chat-content ul li.chatline {
+    background: rgba(0, 0, 0, 0.13);
+}
+#chat-form {
+    margin-top: -4px;
+    overflow: hidden;
+}
+#chat .copy{
+    font-size: 11px; text-align: right; margin-top: -2px; padding: 0 5px 0 0; overflow: hidden; color: #fff;
+}
+#chat .copy a{
+    color: #fff9c9;
+}

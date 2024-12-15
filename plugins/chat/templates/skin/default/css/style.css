@@ -1,0 +1,44 @@
+/* -------------------------------------------------------
+ *
+ *   LiveStreet (1.x)
+ *   Plugin Chat (v.0.1)
+ *   Copyright В© 2013 Bishovec Nikolay
+ *
+ * --------------------------------------------------------
+ *
+ *   Plugin Page: http://netlanc.net
+ *   Contact e-mail: netlanc@yandex.ru
+ *
+ * ---------------------------------------------------------
+ */
+.chat {
+    position: relative; overflow: hidden;
+}
+.chat li ul.actions{
+    float: right;
+}
+.chat .message, .chat .ban{
+    overflow: hidden; margin: 3px 0; border-top: solid 3px #d1e9e7; padding: 5px; font-size: 11px; border-radius: 2px;
+}
+.chat .message.delete{
+    background: #e5e5e5;
+}
+.chat li p.text {
+    background: #f1fef9; display: block; overflow: hidden; border-radius: 2px; padding: 3px 5px;
+}
+
+/**
+*   Chat menu
+*/
+.chat-menu .block-menu .sub-menu{
+    margin-left: 20px;
+}
+.chat-menu li.active {
+    font-weight: bold;
+}
+.chat-menu li.active ul.sub-menu li{
+    font-weight: normal;
+}
+.chat-menu li.active ul.sub-menu li.active{
+    font-weight: bold;
+}

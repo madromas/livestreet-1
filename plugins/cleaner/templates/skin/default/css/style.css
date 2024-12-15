@@ -1,0 +1,30 @@
+/*
+    -------------------------------------------------------
+*
+*   LiveStreet (v.1.x)
+*   Plugin Cleaner (v.0.9)
+*   Copyright © 2013 Bishovec Nikolay
+*
+    --------------------------------------------------------
+*
+*   Plugin Page: http://netlanc.net
+*   Contact e-mail: netlanc@yandex.ru
+*
+    ---------------------------------------------------------
+*/
+#cleaner-form {
+    position: relative;
+}
+#cleaner-loader {
+    text-align: center; width: 128px; height: 128px; margin-left: -64px;
+    background: none; border: none; box-shadow: none;
+}
+.note-cleaner {
+    text-align: center;color: red;
+}
+.note-cleaner span {
+
+}
+.note-cleaner h2{
+    font-size: 20px; color: #333;
+}

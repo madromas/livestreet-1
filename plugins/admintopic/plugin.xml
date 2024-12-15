@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>
+        <lang name="default">Topic management for aceAdminPanel</lang>
+        <lang name="russian">Работа с топикапи для aceAdminPanel</lang>
+    </name>
+    <author>
+        <lang name="default"></lang>
+        <lang name="russian"></lang>
+    </author>
+    <homepage>https://catalog.livestreetcms.com/addon/view/284/</homepage>
+    <version>1.0.1</version>
+    <requires>
+        <livestreet>1.0.1</livestreet>
+        <plugins>
+            <plugin>aceadminpanel</plugin>
+        </plugins>
+    </requires>
+    <description>
+        <lang name="default">Topic management for aceAdminPanel</lang>
+        <lang name="russian">Работа с топикапи для aceAdminPanel</lang>
+    </description>
+</plugin>

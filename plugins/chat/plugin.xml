@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>
+		<lang name="default">Chat (free)</lang>
+	</name>
+	<author>
+		<lang name="default">netlanc</lang>
+	</author>
+	<homepage>http://catalog.netlanc.net/</homepage>
+	<settings>{chat}</settings>
+	<version>0.1</version>
+	<requires>
+		<livestreet>1.x</livestreet>
+		<plugins>
+		</plugins>
+	</requires>
+	<description>
+		<lang name="default">Chat - free version</lang>
+	</description>
+</plugin>

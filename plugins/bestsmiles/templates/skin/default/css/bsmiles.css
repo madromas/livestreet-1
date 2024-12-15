@@ -1,0 +1,5 @@
+.bsAllList {line-height: 1em; background: rgb(240, 240, 240);}
+.bsAllList.smilesHide {display: none;}
+.bsEditor {background-image: url(../images/panelSmile.png);width: 16px;height: 16px;}
+.smile {display: inline-block; width: 20px; height: 20px; background: url(../images/smiles.png); vertical-align: bottom;}
+.bsAllList .smile {margin: 4px;}
