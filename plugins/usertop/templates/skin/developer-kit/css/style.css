@@ -1,0 +1,4 @@
+/* UserTop */
+.block.block-type-userstop .item-list li { padding: 7px 0; }
+.block.block-type-userstop .item-list li .avatar { height: 18px; margin-right: 5px; width: 18px; }
+.block.block-type-userstop .item-list li small { margin-top: 1px; }
