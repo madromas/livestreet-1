@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>
+	<lang name="default">Comment Up</lang>
+    </name>
+    <author>
+	<lang name="default">netlanc</lang>
+    </author>
+    <homepage>http://netlanc.net</homepage>
+    <version>1.0.0</version>
+    <requires>
+	<livestreet>0.5x</livestreet>
+	<plugins>
+
+	</plugins>
+    </requires>
+    <description>
+	<lang name="default">Raising the last comment on the topic</lang>
+	<lang name="russian">Поднятие последнего коментированого топика</lang>
+    </description>
+</plugin>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>
+		<lang name="default">Extended Image</lang>
+	</name>
+	<author>
+		<lang name="default">Артем Маковецкий</lang>
+	</author>
+	<homepage>https://github.com/TemaMak/extentedimage</homepage>
+	<version>1.0.5</version>
+	<requires>
+		<livestreet>1.0.1</livestreet>
+		<plugins>
+		</plugins>
+	</requires>
+	<description>
+		<lang name="default">Extended Image</lang>
+		<lang name="russian">Расширенная работа с картинками на сайте.</lang>
+	</description>
+</plugin>
