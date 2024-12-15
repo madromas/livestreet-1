@@ -6,7 +6,7 @@
 	<author>
 		<lang name="default">LiveStreet Developers Team</lang>
 	</author>
-	<homepage>http://livestreet.ru</homepage>
+	<homepage>https://livestreet.ru</homepage>
 	<settings>{profiler}</settings>
 	<version>1.2.0</version>
 	<requires>
