@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin>
+	<name>
+		<lang name="default">Feedback</lang>
+		<lang name="russian">Обратная связь</lang>
+	</name>
+	<author>
+		<lang name="default">Chiffa</lang>
+		<lang name="russian">Чиффа</lang>
+	</author>
+	<homepage>https://catalog.livestreetcms.com/addon/view/41/</homepage>
+	<version>2.0.2</version>
+	<settings>{feedback}admin/</settings>
+	<requires>
+		<livestreet>1.0</livestreet>
+		<plugins></plugins>
+	</requires>
+	<description>
+		<lang name="default">Feedback form for Livestreet CMS</lang>
+		<lang name="russian">Форма обратной связи для Livestreet CMS</lang>
+	</description>
+</plugin>
